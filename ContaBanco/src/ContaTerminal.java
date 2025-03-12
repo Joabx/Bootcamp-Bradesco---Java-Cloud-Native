@@ -21,7 +21,7 @@ public class ContaTerminal {
         System.out.println("Digite a sua Agência: ");
         agencia = scanner.nextLine();
 
-
+        scanner.close();
         System.out.println("Aguarde um momento...");
         
         System.out.println(".");
