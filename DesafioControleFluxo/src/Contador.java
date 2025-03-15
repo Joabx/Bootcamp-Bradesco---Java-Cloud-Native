@@ -9,11 +9,11 @@ public class Contador {
 
         System.out.println("Digite o primeiro parâmetro: ");
         p1 = scanner.nextInt();
-        System.out.println(p1);
+      //  System.out.println(p1);
 
         System.out.println("Digite o segundo parâmetro: ");
         p2 = scanner.nextInt();  
-        System.out.println(p2);
+      //  System.out.println(p2);
 
 
         try {
