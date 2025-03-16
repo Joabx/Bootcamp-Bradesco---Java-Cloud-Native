@@ -23,6 +23,7 @@ public class Contador {
             System.out.println("O SEGUNDO parâmetro deve ser maior que o PRIMEIRO parâmetro!!!");
         }
 
+        scanner.close();
 
     }
 
