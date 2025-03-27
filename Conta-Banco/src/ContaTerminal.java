@@ -4,7 +4,7 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         
         int numeroConta;
-        String numeroContaDigitado;
+       
         String agencia;
         String nomeCliente;
         double saldo = 237.48;
@@ -16,7 +16,7 @@ public class ContaTerminal {
         nomeCliente = scanner.nextLine();
 
         System.out.println("Digite o número da conta: ");
-        numeroConta = Integer.parseInt( numeroContaDigitado  = scanner.nextLine() ); 
+        numeroConta = Integer.parseInt( scanner.nextLine() ); 
         
         System.out.println("Digite a sua Agência: ");
         agencia = scanner.nextLine();
