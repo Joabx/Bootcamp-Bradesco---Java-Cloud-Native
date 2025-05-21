@@ -125,3 +125,77 @@ Os recursos do Azure são os blocos básicos para construir soluções em nuvem:
 - As assinaturas dentro de um grupo herdam as regras e condições configuradas no grupo, promovendo governança centralizada e padronização.  
 - Suportam a aplicação de políticas globais via Azure Policy, permitindo regras de compliance e segurança em larga escala.  
 - Facilitam a delegação de administração e automação de governança em organizações grandes e com múltiplas equipes.  
+
+
+## 💻 Computação e Rede no Azure 🚀
+
+## Serviços de Computação do Azure  
+A computação no Azure entrega recursos de hardware e software sob demanda, incluindo:  
+- Processamento (CPU)  
+- Memória RAM  
+- Discos de armazenamento  
+- Recursos de rede  
+- Sistemas operacionais (Windows, Linux, etc.)  
+
+## Máquinas Virtuais (VMs) no Azure  
+As VMs são instâncias virtuais que simulam um computador físico completo, oferecendo:  
+- Processadores virtuais, memória dedicada, armazenamento e interface de rede.  
+- Um modelo **IaaS (Infraestrutura como Serviço)** que concede controle total para instalação e configuração personalizada do sistema operacional e aplicativos.  
+- Excelente para migrar workloads tradicionais para a nuvem sem necessidade de reescrever aplicações.  
+
+## Grupos de Escala de VMs  
+- Facilitam o ajuste automático da quantidade de VMs com base na demanda de carga, garantindo desempenho e custo eficiente.  
+- Integram balanceamento de carga para distribuir solicitações de forma equilibrada entre as VMs.  
+
+## Domínios de Disponibilidade e Conjuntos de Disponibilidade  
+- Distribuem VMs em diferentes domínios físicos para minimizar riscos de falhas simultâneas, como queda de energia ou falha de hardware.  
+- Garantem que atualizações e manutenção do Azure não causem indisponibilidade dos serviços críticos.  
+
+## Área de Trabalho Virtual do Azure  
+- Oferece uma solução **VDI (Virtual Desktop Infrastructure)** na nuvem para acesso remoto seguro a desktops e aplicativos.  
+- Suporta múltiplos usuários simultâneos sem necessidade de hardware local avançado.  
+- Ideal para empresas que querem oferecer trabalho remoto, com gerenciamento simplificado e escalabilidade dinâmica.  
+
+## Serviços de Contêiner no Azure  
+Os contêineres são ambientes isolados, leves e portáteis para executar aplicações:  
+- **Azure Container Instances (ACI)**: serviço rápido para rodar contêineres sem gerenciar servidores.  
+- **Azure App Service para Contêineres**: hospeda aplicações web dentro de contêineres com escalabilidade integrada.  
+- **Azure Kubernetes Service (AKS)**: orquestração avançada para implantar, gerenciar e escalar clusters de contêineres em produção, suportando microsserviços e arquiteturas distribuídas.  
+
+## Azure Functions — Computação Serverless  
+- Permite executar código em resposta a eventos, escalando automaticamente e cobrando apenas pelo tempo efetivo de execução.  
+- Ideal para processos baseados em eventos, como processamento de dados, integrações, APIs e automações sem gerenciar servidores.  
+
+## Entendendo as Opções de Computação no Azure  
+O Azure oferece diferentes níveis de controle e complexidade para computação na nuvem. As Máquinas Virtuais são perfeitas para quem precisa de controle total sobre o ambiente, podendo configurar o sistema operacional e aplicativos como desejar, ideal para migrar sistemas legados. Já a Área de Trabalho Virtual oferece uma experiência de desktop remoto robusta, permitindo que vários usuários acessem um ambiente centralizado, ideal para empresas que promovem trabalho remoto ou precisam de ambientes padronizados. Para arquiteturas modernas e ágeis, os contêineres fornecem um ambiente leve e eficiente, especialmente com o suporte do Kubernetes para orquestração, facilitando o desenvolvimento de microsserviços e aplicações distribuídas. Além disso, com o Azure Functions, você pode desenvolver funções específicas que rodam apenas quando acionadas, otimizando custos e recursos ao eliminar a necessidade de servidores permanentes.
+
+## Serviços de Aplicativos no Azure  
+- Plataforma gerenciada para criar, implantar e escalar APIs e aplicações web rapidamente.  
+- Compatível com várias linguagens populares: .NET, Java, Node.js, Python, PHP, entre outras.  
+- Oferece recursos embutidos de segurança, monitoramento e compliance, simplificando operações.  
+
+---
+
+# 🌐 Serviços de Rede no Azure  
+
+## Redes Virtuais (VNets)  
+- Criam redes isoladas dentro do Azure para conectar recursos em nuvem, na internet e em ambientes locais.  
+- Permitem segmentar a rede em sub-redes para organização e segurança.  
+- Suportam pontos de extremidade públicos e privados, garantindo controle sobre acesso e exposição.  
+- Possuem emparelhamento para conectar redes virtuais diferentes de forma segura e rápida.  
+
+## Gateways VPN do Azure  
+- Proporcionam comunicação criptografada entre sua rede local e o Azure via internet pública, garantindo privacidade e segurança.  
+
+## ExpressRoute  
+- Serviço que oferece conexão privada, dedicada e de alta velocidade entre ambientes on-premises e Azure, ideal para cargas críticas e regulamentadas.  
+- Evita exposição à internet pública, aumentando segurança e desempenho.  
+
+## DNS do Azure  
+- Sistema de nomes de domínio gerenciado que usa Anycast para alta disponibilidade e baixa latência global.  
+- Integra-se ao Gerenciador de Recursos para controle de acesso granular.  
+- Suporta domínios públicos e privados, registros personalizados e alias para recursos do Azure.  
+- Permite gerenciamento unificado de DNS para ambientes híbridos e multicloud.  
+
+---
+
