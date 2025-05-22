@@ -12,7 +12,6 @@ Este repositório apresenta uma aplicação prática dos recursos oferecidos pel
 
 O serviço identificou automaticamente os termos e expressões mais representativos do conteúdo.
 
-
 ---
 
 ### 😊 Análise de Sentimentos
